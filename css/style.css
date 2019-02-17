@@ -1,0 +1,50 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.contenedorGeneral{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+}
+.contenedorGeneral header{
+  width: 100%;
+  box-sizing: border-box;
+  font-family: roboto, arial;
+  font-size: 30px;
+  text-align: center;
+  background: rgb(60, 62, 62);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.contenedorGeneral header a{
+  text-decoration: none;
+}
+.contenedorGeneral nav{
+  width: 100%;
+  background: rgb(203, 42, 71);
+  height: auto;
+}
+.contenedorGeneral nav ul{
+  margin: 0px;
+}
+.contenedorGeneral nav ul li{
+  display: inline-block;
+}
+.contenedorGeneral nav ul li a{
+  display: block;
+  color: white;
+  font-family: roboto, arial;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 12px;
+  margin: 0px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+}
+.contenedorGeneral nav ul li a:hover{
+  background: rgb(138, 14, 14);
+  cursor: pointer;
+}

@@ -6,6 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css"/>
   <title>Inicio</title>
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  <link rel="shortcut icon" type="image/png" href="./favicon.png">
+
+
+  <script type="text/javascript" src="./lib/howler.min.js"></script>
+  <script type="text/javascript" src="./lib/pako.min.js"></script>
+  <script type="text/javascript" src="./lib/FileSaver.min.js"></script>
+  <script type="text/javascript" src="./MarioAlpha15.js"></script>
+
+  <script>
+    window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+    if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+      var meta = document.getElementById ("viewport");
+      meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+    }
+  </script>
 </head>
 <body>
 
@@ -23,6 +43,13 @@
           <li><a>Nav3</a></li>
         </ul>
     </nav>
+
+
+    <div id="openfl-content"></div>
+
+  	<script type="text/javascript">
+  		lime.embed ("MarioAlpha15", "openfl-content", 960, 416, { parameters: {} });
+  	</script>
   </div>
 
 </body>

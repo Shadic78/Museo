@@ -7,29 +7,6 @@
   <link rel="stylesheet" href="css/style.css"/>
   <title>Inicio</title>
 
-  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-
-
-  <link rel="shortcut icon" type="image/png" href="mario/favicon.png">
-
-
-  <script type="text/javascript" src="mario/lib/howler.min.js"></script>
-  <script type="text/javascript" src="mario/lib/pako.min.js"></script>
-  <script type="text/javascript" src="mario/lib/FileSaver.min.js"></script>
-  <script type="text/javascript" src="mario/MarioAlpha15.js"></script>
-
-  <script>
-    window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
-    if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
-      var meta = document.getElementById ("viewport");
-      meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
-    }
-  </script>
-
-  <style>
-    #openfl-content { background: #000000; width: 960px; height: 416px; }
-  </style>
 </head>
 <body>
 
@@ -48,12 +25,6 @@
         </ul>
     </nav>
 
-
-    <div id="openfl-content"></div>
-
-  	<script type="text/javascript">
-  		lime.embed ("mario/MarioAlpha15", "openfl-content", 960, 416, { parameters: {} });
-  	</script>
   </div>
 
 </body>

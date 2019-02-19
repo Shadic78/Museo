@@ -91,6 +91,9 @@ body{
   border: solid 1px rgb(154, 150, 150);
   height: 500px;
 }
+/*
+  Columna derecha
+*/
 .contenedorGeneral .contenedorContenido .columnaDerecha{
   float: right;
   width: 25%;

@@ -1,7 +1,11 @@
 body{
   margin: 0px;
   padding: 0px;
+  background: rgb(217, 215, 208);
 }
+/*
+  Header
+*/
 .contenedorGeneral{
   width: 100%;
   overflow: hidden;
@@ -21,18 +25,28 @@ body{
 .contenedorGeneral header a{
   text-decoration: none;
 }
-.contenedorGeneral nav{
+/*
+  Barra de navegacion
+*/
+.contenedorGeneral .contenedorNav{
   width: 100%;
   background: rgb(203, 42, 71);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.contenedorGeneral .contenedorNav nav{
+  width: 80%;
   height: auto;
+  margin: 0 auto;
 }
-.contenedorGeneral nav ul{
+.contenedorGeneral .contenedorNav nav ul{
   margin: 0px;
+  padding: 0px;
 }
-.contenedorGeneral nav ul li{
+.contenedorGeneral .contenedorNav nav ul li{
   display: inline-block;
 }
-.contenedorGeneral nav ul li a{
+.contenedorGeneral .contenedorNav nav ul li a{
   display: block;
   color: white;
   font-family: roboto, arial;
@@ -44,7 +58,44 @@ body{
   -o-transition: all ease .5s;
   transition: all ease .5s;
 }
-.contenedorGeneral nav ul li a:hover{
+.contenedorGeneral .contenedorNav nav ul li a:hover{
   background: rgb(138, 14, 14);
   cursor: pointer;
+}
+/*
+  Contenido
+*/
+.contenedorGeneral .contenedorContenido{
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.contenedorGeneral .contenedorContenido .tituloContenido{
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 2.1em;
+  font-family: Calibri, roboto, arial;
+  font-weight: bold;
+  padding: 15px 0px;;
+  background: rgb(203, 42, 71);
+  color: white;
+  border: solid 1px rgb(154, 150, 150);
+  margin-bottom: 15px;
+}
+.contenedorGeneral .contenedorContenido .columnaIzquierda{
+  float: left;
+  width: 72%;
+  background: white;
+  box-sizing: border-box;
+  border: solid 1px rgb(154, 150, 150);
+  height: 500px;
+}
+.contenedorGeneral .contenedorContenido .columnaDerecha{
+  float: right;
+  width: 25%;
+  background: white;
+  box-sizing: border-box;
+  border: solid 1px rgb(154, 150, 150);
+  height: 500px;
 }

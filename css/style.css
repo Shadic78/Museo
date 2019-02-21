@@ -102,7 +102,6 @@ body{
   width: 72%;
   /*background: white;*/
   box-sizing: border-box;
-  border: solid 1px rgb(154, 150, 150);
   height: auto;
 }
 .contenedorGeneral article{
@@ -115,6 +114,7 @@ body{
   color: rgb(55, 55, 53);
   text-align: justify;
   margin-bottom: 15px;
+  border: solid 1px rgb(154, 150, 150);
 }
 .contenedorGeneral article h1{
   text-align: center;

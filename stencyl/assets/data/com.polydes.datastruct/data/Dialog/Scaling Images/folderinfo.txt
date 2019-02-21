@@ -1,1 +1,0 @@
-fileOrder=Dialog Choice,Dialog Choice Selection,Dialog Main,Dialog Name

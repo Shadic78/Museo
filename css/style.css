@@ -63,6 +63,17 @@ body{
   cursor: pointer;
 }
 /*
+  Logo
+*/
+.contenedorContenido .contenedorLogo{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.contenedorContenido .contenedorLogo img{
+  width: 100%;
+}
+/*
   Contenido
 */
 .contenedorGeneral .contenedorContenido{
@@ -83,13 +94,30 @@ body{
   border: solid 1px rgb(154, 150, 150);
   margin-bottom: 15px;
 }
+/*
+  Columna izquierda
+*/
 .contenedorGeneral .contenedorContenido .columnaIzquierda{
   float: left;
   width: 72%;
-  background: white;
+  /*background: white;*/
   box-sizing: border-box;
   border: solid 1px rgb(154, 150, 150);
-  height: 500px;
+  height: auto;
+}
+.contenedorGeneral article{
+  width: 100%;
+  background: white;
+  box-sizing: border-box;
+  padding: 15px 2em;
+  font-size: 18px;
+  font-family: Calibri, roboto, arial;
+  color: rgb(55, 55, 53);
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.contenedorGeneral article h1{
+  text-align: center;
 }
 /*
   Columna derecha

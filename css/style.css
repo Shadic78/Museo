@@ -4,6 +4,17 @@ body{
   background: rgb(217, 215, 208);
 }
 /*
+  Logo
+*/
+.contenedorGeneral .contenedorLogo{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.contenedorGeneral .contenedorLogo img{
+  width: 100%;
+}
+/*
   Header
 */
 .contenedorGeneral{
@@ -12,41 +23,41 @@ body{
   height: auto;
   margin: 0 auto;
 }
-.contenedorGeneral header{
-  width: 100%;
+.contenedorGeneral .contenedorLogo header{
+  width: fit-content;
+  position: absolute;
+  top: 1em;
+  left: 1em;
   box-sizing: border-box;
   font-family: roboto, arial;
   font-size: 30px;
   text-align: center;
-  background: rgb(60, 62, 62);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /*background: rgb(60, 62, 62);*/
+  padding: 10px 15px;
 }
-.contenedorGeneral header a{
+.contenedorGeneral .contenedorLogo header a{
   text-decoration: none;
 }
 /*
   Barra de navegacion
 */
-.contenedorGeneral .contenedorNav{
-  width: 100%;
-  background: rgb(203, 42, 71);
+.contenedorGeneral .contenedorLogo nav{
+  width: fit-content;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  /*background: rgb(203, 42, 71);*/
   overflow: hidden;
   box-sizing: border-box;
 }
-.contenedorGeneral .contenedorNav nav{
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-}
-.contenedorGeneral .contenedorNav nav ul{
+.contenedorGeneral .contenedorLogo nav ul{
   margin: 0px;
   padding: 0px;
 }
-.contenedorGeneral .contenedorNav nav ul li{
+.contenedorGeneral .contenedorLogo nav ul li{
   display: inline-block;
 }
-.contenedorGeneral .contenedorNav nav ul li a{
+.contenedorGeneral .contenedorLogo nav ul li a{
   display: block;
   color: white;
   font-family: roboto, arial;
@@ -58,20 +69,9 @@ body{
   -o-transition: all ease .5s;
   transition: all ease .5s;
 }
-.contenedorGeneral .contenedorNav nav ul li a:hover{
+.contenedorGeneral .contenedorLogo nav ul li a:hover{
   background: rgb(138, 14, 14);
   cursor: pointer;
-}
-/*
-  Logo
-*/
-.contenedorContenido .contenedorLogo{
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-.contenedorContenido .contenedorLogo img{
-  width: 100%;
 }
 /*
   Contenido

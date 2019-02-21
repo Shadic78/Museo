@@ -1,0 +1,14 @@
+struct_id=21
+struct_type=dialog.ds.ext.TextEffects
+v_maxShakeOffsetX=1
+v_maxShakeOffsetY=1
+v_shakeFrequency=70
+s_magnitude=5
+s_frequency=1000
+s_pattern=100
+r_diameter=4
+r_frequency=1000
+r_pattern=100
+g_start=4.0
+g_stop=1.0
+g_duration=116

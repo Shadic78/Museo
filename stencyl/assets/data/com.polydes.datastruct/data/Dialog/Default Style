@@ -1,0 +1,4 @@
+struct_id=11
+struct_type=dialog.ds.Style
+extensions=[12,13,14,15,16,17,18,19,20,21,22]:dialog.ds.DialogExtension
+drawOrder=[Face,Window Frame,Message,Text Effects,Namebox,Wait Pointer,Dialog Choice]:String

@@ -1,0 +1,11 @@
+struct_id=7
+struct_type=dialog.ds.WindowTemplate
+position=[[71],[72%]]
+image=0
+createTween=5
+destroyTween=6
+scaleWidth=No Scale
+scaleWidthSize=[0]
+scaleHeight=Custom
+scaleHeightSize=[26%]
+insets=[20.0,18.0,16.0,18.0]

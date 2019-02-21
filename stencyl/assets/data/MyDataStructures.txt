@@ -1,0 +1,23 @@
+Dialog/Default Style
+Dialog/Plugins/Default Style Character Scripts
+Dialog/Plugins/Default Style Dialog Base
+Dialog/Plugins/Default Style Dialog Options
+Dialog/Plugins/Default Style Extra Glyphs
+Dialog/Plugins/Default Style Flow Scripts
+Dialog/Plugins/Default Style Skip Scripts
+Dialog/Plugins/Default Style Text Effects
+Dialog/Plugins/Default Style Typing Scripts
+Dialog/Plugins/Logic
+Dialog/Plugins/Messaging Scripts
+Dialog/Plugins/Sound Scripts
+Dialog/Scaling Images/Dialog Choice
+Dialog/Scaling Images/Dialog Choice Selection
+Dialog/Scaling Images/Dialog Main
+Dialog/Scaling Images/Dialog Name
+Dialog/Tweens/Default
+Dialog/Tweens/Fade In
+Dialog/Tweens/Fade Out
+Dialog/Windows/Dialog Choice Cursor Window
+Dialog/Windows/Dialog Choice Window
+Dialog/Windows/Dialog Main Window
+Dialog/Windows/Dialog Name Window

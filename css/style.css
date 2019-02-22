@@ -3,6 +3,13 @@ body{
   padding: 0px;
   background: rgb(217, 215, 208);
 }
+.contenedorGeneral{
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 /*
   Logo
 */
@@ -17,12 +24,6 @@ body{
 /*
   Header
 */
-.contenedorGeneral{
-  width: 100%;
-  overflow: hidden;
-  height: auto;
-  margin: 0 auto;
-}
 .contenedorGeneral .contenedorLogo header{
   width: fit-content;
   position: absolute;
@@ -65,9 +66,9 @@ body{
   text-decoration: none;
   padding: 10px 12px;
   margin: 0px;
-  -webkit-transition: all ease .5s;
-  -o-transition: all ease .5s;
-  transition: all ease .5s;
+  -webkit-transition: background ease .5s;
+  -o-transition: background ease .5s;
+  transition: background ease .5s;
 }
 .contenedorGeneral .contenedorLogo nav ul li a:hover{
   background: rgb(138, 14, 14);
@@ -104,8 +105,10 @@ body{
   box-sizing: border-box;
   height: auto;
 }
+/* Articulos */
 .contenedorGeneral article{
   width: 100%;
+  overflow: hidden;
   background: white;
   box-sizing: border-box;
   padding: 15px 2em;
@@ -119,6 +122,24 @@ body{
 .contenedorGeneral article h1{
   text-align: center;
 }
+/* Boton de leer mas */
+.contenedorGeneral article .btn-leerMas{
+  display: block;
+  padding: 8px 10px;
+  background: rgb(203, 42, 71);
+  color: white;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  border-radius: 1em;
+  text-decoration: none;
+  float: right;
+  -webkit-transition: background ease .3s;
+  -o-transition: background ease .3s;
+  transition: background ease .3s;
+}
+.contenedorGeneral article .btn-leerMas:hover{
+  background: rgb(140, 28, 48);
+}
 /*
   Columna derecha
 */
@@ -129,4 +150,18 @@ body{
   box-sizing: border-box;
   border: solid 1px rgb(154, 150, 150);
   height: 500px;
+}
+/*
+  Footer
+*/
+.contenedorGeneral footer{
+  width: 100%;
+  height: auto;
+  background: rgb(60, 62, 62);
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: arial, sans-serif;
+  box-sizing: inherit;
+  padding: 10px 15px;
 }

@@ -61,6 +61,7 @@ body{
 .contenedorGeneral .contenedorLogo nav ul li a{
   display: block;
   color: white;
+  border-radius: 1em;
   font-family: roboto, arial;
   font-size: 18px;
   text-decoration: none;
@@ -104,6 +105,24 @@ body{
   /*background: white;*/
   box-sizing: border-box;
   height: auto;
+}
+.contenedorGeneral .contenedorContenido .columnaUnica{
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  background: white;
+  border: solid 1px rgb(154, 150, 150);
+  padding: 15px 25px;
+  text-align: center;
+  color: rgb(55, 55, 53);
+  font-family: Calibri, arial, sans-serif;
+}
+.contenedorGeneral .contenedorContenido .columnaUnica p{
+  text-align: justify;
+  font-family: Calibri, arial, sans-serif;
+  color: rgb(55, 55, 53);
+  font-size: 20px;
 }
 /* Articulos */
 .contenedorGeneral article{

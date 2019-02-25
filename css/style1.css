@@ -1,0 +1,34 @@
+body{
+  background: rgb(217, 215, 208);
+}
+.nav-opcion{
+  color: rgb(232, 233, 232);
+  -webkit-transition: color ease .3s;
+  -o-transition: color ease .3s;
+  transition: color ease .3s;
+}
+.nav-opcion:hover{
+  color: rgb(171, 181, 171);
+}
+.tituloArticulos{
+  background: rgb(203, 42, 71);
+  color: white;
+}
+.no-padding{
+  padding: 0px 0px;
+}
+.articulo{
+  background: white;
+  font-family: Calibri, arial, sans-serif;
+  color: rgb(60, 63, 64);
+  padding: 1.5em 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.articulo p{
+  font-size: 18px;
+  text-align: justify;
+}
+aside{
+  background: white;
+}

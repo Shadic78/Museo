@@ -4,101 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="iconos/style.css"/>
+  <link rel="stylesheet" href="css/style1.css"/>
   <title>Stardust Team</title>
 
 </head>
 <body>
-
-  <div class="contenedorGeneral">
-    <div class="contenedorLogo">
-      <header>
-            <a href="index.html"><span style="color:white">Stardust</span><span style="color:rgb(203, 42, 71)"> Team</span></a>
-      </header>
-        <nav>
-          <ul>
-              <li><a href="index.html"><span class="icon-home"></span>Inicio</a></li>
-              <li><a href="#"><span class="icon-help-with-circle"></span>¿Quienes somos?</a></li>
-            </ul>
-        </nav>
-      <img src="images/stardustLogo.png"/>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><span style="color:white;">Stardust</span><span style="color:red;">Team</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="nav-opcion"><span class="icon-home"></span>Inicio</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid" style="background:black;">
+    <img src="img/stardustLogo.png" class="img-fluid"/>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3 pb-3 mt-4 mb-4 text-center tituloArticulos"><h2>Un recorrido por viejos proyectos</h2></div>
     </div>
-    <div class="contenedorContenido">
-      <div class="tituloContenido">
-        <span>Un recorrido por viejos proyectos</span>
-      </div>
-      <!-- Columa de la izquierda de los articulos -->
-      <div class="columnaIzquierda">
-          <!-- Articulos -->
-          <article>
-            <h1>Articulo 2</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet placerat
-              justo. Donec convallis, lorem rutrum lacinia tristique, nisi quam mollis tortor,
-              pharetra maximus nisl ipsum vitae dui. Mauris hendrerit pulvinar bibendum. Mauris
-              pharetra non nibh sed varius. Nullam sit amet felis a sem dignissim pellentesque.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed aliquam turpis dui,
-              ut malesuada urna commodo id. Ut non magna posuere, lobortis mauris at, sodales lacus.
-              Phasellus pulvinar justo leo, a efficitur ligula convallis ac. Vivamus venenatis nulla
-              id sapien facilisis consectetur.
-            </p>
-            <p>
-              Etiam dictum tellus metus, a pulvinar elit pharetra vitae. Fusce augue ex, congue at
-              risus ac, suscipit bibendum dui. Phasellus placerat nisi sed pulvinar sagittis.
-              Nullam non ex ultrices, feugiat dolor a, varius massa. Praesent sit amet libero quis
-              ipsum dictum blandit. Suspendisse vulputate posuere tortor, porta placerat
-              leo vulputate vitae. Morbi dignissim dui a mattis hendrerit. Nulla at sem ligula.
-              Praesent ultricies elit nec laoreet dapibus. Mauris hendrerit magna id maximus
-              interdum. Nullam at placerat felis, vel rhoncus enim. Vivamus commodo, turpis vel
-              fermentum consectetur, lacus justo volutpat ex, at eleifend sem massa non sapien.
-              Integer vel ipsum viverra, ultricies ligula et, eleifend arcu. Morbi vehicula lacus
-              eros, sed vulputate nisl pharetra nec.
-            </p>
-            <a href="#" class="btn-leerMas">
-                Leer mas
-            </a>
-          </article>
 
-          <article>
-            <h1>Articulo 1</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet placerat
-              justo. Donec convallis, lorem rutrum lacinia tristique, nisi quam mollis tortor,
-              pharetra maximus nisl ipsum vitae dui. Mauris hendrerit pulvinar bibendum. Mauris
-              pharetra non nibh sed varius. Nullam sit amet felis a sem dignissim pellentesque.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed aliquam turpis dui,
-              ut malesuada urna commodo id. Ut non magna posuere, lobortis mauris at, sodales lacus.
-              Phasellus pulvinar justo leo, a efficitur ligula convallis ac. Vivamus venenatis nulla
-              id sapien facilisis consectetur.
-            </p>
-            <p>
-              Etiam dictum tellus metus, a pulvinar elit pharetra vitae. Fusce augue ex, congue at
-              risus ac, suscipit bibendum dui. Phasellus placerat nisi sed pulvinar sagittis.
-              Nullam non ex ultrices, feugiat dolor a, varius massa. Praesent sit amet libero quis
-              ipsum dictum blandit. Suspendisse vulputate posuere tortor, porta placerat
-              leo vulputate vitae. Morbi dignissim dui a mattis hendrerit. Nulla at sem ligula.
-              Praesent ultricies elit nec laoreet dapibus. Mauris hendrerit magna id maximus
-              interdum. Nullam at placerat felis, vel rhoncus enim. Vivamus commodo, turpis vel
-              fermentum consectetur, lacus justo volutpat ex, at eleifend sem massa non sapien.
-              Integer vel ipsum viverra, ultricies ligula et, eleifend arcu. Morbi vehicula lacus
-              eros, sed vulputate nisl pharetra nec.
-            </p>
-            <a href="#" class="btn-leerMas">
-                Leer mas
-            </a>
-          </article>
-          <!-- Fin articulos -->
+    <div class="row">
+      <!-- Articulos -->
+      <div class="col-lg-8 no-padding">
+        <article class="articulo border">
+          <h2>Articulo 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo magnam natus nemo rerum, harum dicta ab laborum est! Modi, voluptas! Tenetur ullam ut tempora optio velit quos sunt itaque.
+          </p>
+        </article>
+        <article class="articulo border">
+          <h2>Articulo 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo magnam natus nemo rerum, harum dicta ab laborum est! Modi, voluptas! Tenetur ullam ut tempora optio velit quos sunt itaque.
+          </p>
+        </article>
       </div>
-      <!-- Columna de la derecha de los articulos -->
-      <div class="columnaDerecha">
+      <!-- Fin articulos -->
+      <aside class="col-lg-4 border">
+        <h2>Aside</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consectetur ab dolore autem, expedita a labore animi, cumque. Nemo soluta delectus, in quibusdam alias omnis consequatur iure, nulla distinctio asperiores.
+      </aside>
+    </div>
 
-      </div>
-    </div> <!-- Contenedor del contenido -->
-    <footer>
-      Footer
-    </footer>
-  </div> <!-- Contenedor general -->
+  </div>
 
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

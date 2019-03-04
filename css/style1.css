@@ -24,11 +24,25 @@ body{
   padding: 1.5em 1.5em;
   text-align: center;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .articulo p{
   font-size: 18px;
   text-align: justify;
 }
+.articulo a{
+  background: rgb(203, 42, 71);
+  border: none;
+}
+.articulo a:hover{
+  border: none;
+  background: rgb(167, 34, 58);
+}
 aside{
   background: white;
+}
+footer{
+  color: white;
+  font-family: Roboto, Calibri, arial;
+  font-size: 20px;
 }

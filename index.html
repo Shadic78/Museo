@@ -23,7 +23,7 @@
             <a class="nav-link" href="#"><span class="nav-opcion"><span class="icon-home"></span>Inicio</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
+            <a class="nav-link" href="articulos/info.html"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
           </li>
         </ul>
       </div>
@@ -41,26 +41,56 @@
       <!-- Articulos -->
       <div class="col-lg-8 no-padding">
         <article class="articulo border">
-          <h2>Articulo 2</h2>
+          <h2>My First Job</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo magnam natus nemo rerum, harum dicta ab laborum est! Modi, voluptas! Tenetur ullam ut tempora optio velit quos sunt itaque.
+            Un videojuego "educativo" en el que tomas el papel de un
+            recien egresado de ingeniería de software que acaba de obtener su primer trabajo
+            en una empresa de desarrollo de software curiosamente llamada "Stardust Team".
           </p>
-          <a class="btn btn-primary float-right" href="#" role="button">Leer mas</a>
+          <img src="img/myfirstjob1.png" alt="MyFirstJob">
+          <a class="btn btn-primary float-right mt-2 boton" href="articulos/articleMyFirstJob.html" role="button">Leer mas</a>
         </article>
-        <article class="articulo border">
-          <h2>Articulo 1</h2>
+
+        <article class="articulo articuloIndex border">
+          <h2>Jonathan Quest</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo magnam natus nemo rerum, harum dicta ab laborum est! Modi, voluptas! Tenetur ullam ut tempora optio velit quos sunt itaque.
+            Un videojuego altamente inspirado en The Legend of Zelda.
           </p>
-          <a class="btn btn-primary float-right" href="#" role="button">Leer mas</a>
+          <img src="img/jon1.png" alt="JonathanQuest">
+          <a class="btn btn-primary float-right mt-2 boton" href="articulos/articleJon.html" role="button">Leer mas</a>
+        </article>
+
+        <article class="articulo articuloIndex border">
+          <h2>Mario bros</h2>
+          <p>
+            El primer proyecto o "experimento" desarrollado por Stardust Team, un videojuego
+            de plataformas que intenta parecerse a un mario bros original.
+          </p>
+          <img src="img/mario1.png" alt="Mario bros"/>
+          <a class="btn btn-primary float-right mt-2 boton" href="articulos/articleMario.html" role="button">Leer mas</a>
         </article>
       </div>
       <!-- Fin articulos -->
+
+      <!-- Aside -->
       <aside class="col-lg-4 d-none d-lg-block borde-izq px-0">
-        <div class="cont-aside border">
-          <h2>Aside</h2>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consectetur ab dolore autem, expedita a labore animi, cumque. Nemo soluta delectus, in quibusdam alias omnis consequatur iure, nulla distinctio asperiores.
+        <div class="contenedor-lateral">
+          <div class="tituloContenedor py-2">Busqueda</div>
+          <div class="cont-aside border">
+            <form>
+              <input type="text" class="form-control" placeholder="¿Que quieres buscar?"/>
+              <button type="submit" class="btn btn-primary botonCompleto mt-2">Buscar</button>
+            </form>
+          </div>
         </div>
+
+        <div class="contenedor-lateral">
+          <div class="tituloContenedor py-2">Filtros</div>
+          <div class="cont-aside border filtros">
+            <h4>Sin filtros</h4>
+          </div>
+        </div>
+
       </aside>
     </div>
 

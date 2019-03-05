@@ -1,0 +1,5 @@
+struct_id=16
+struct_type=dialog.ds.ext.TypingScripts
+defaultRandomTypeSounds=[]:com.stencyl.models.Sound
+characterSkipSFX=0
+playTypeSoundOnSpaces=false

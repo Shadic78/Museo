@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<title>MarioAlpha15</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../iconos/style.css"/>
+  <link rel="stylesheet" href="../../css/style1.css"/>
+  <title>Stardust Team</title>
+
+	<script type="text/javascript" src="./lib/howler.min.js"></script>
+	<script type="text/javascript" src="./lib/pako.min.js"></script>
+	<script type="text/javascript" src="./lib/FileSaver.min.js"></script>
+	<script type="text/javascript" src="./MarioAlpha15.js"></script>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+
+	<style>
+		html,body { margin: 0; padding: 0;}
+		#openfl-content { background: #000000; width: 960px; height: 416px; }
+
+	</style>
+
+</head>
+<body>
+
+	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<a class="navbar-brand" href="../../index.html"><span style="color:white;">Stardust</span><span style="color:red;">Team</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../../index.html"><span class="nav-opcion"><span class="icon-home"></span>Inicio</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../articulos/info.html"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="container-fluid" style="background:black;">
+		<img src="../../img/stardustLogo.png" class="img-fluid"/>
+	</div>
+	<!--Juego-->
+	<div id="openfl-content" class="contenedorJuego"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 pt-3 pb-3 mt-4 mb-4 text-center tituloArticulos"><h2>Mario Bros</h2></div>
+		</div>
+
+		<div class="row justify-content-center articulo border">
+			<!-- Articulos -->
+			<div class="col-lg-9 no-padding">
+				<article>
+					<h2>Controles</h2>
+					<hr />
+					<span class="titulo-controles"><strong>Mario</strong></span><br />
+					<p>
+						<strong>Flechas izquierda/derecha: </strong>Moverse a la derecha o izquierda.<br />
+						<strong>Flecha arriba: </strong>Saltar.<br />
+						<strong>Shift: </strong>Moverse mas rapido.<br />
+					</p>
+					<hr />
+					<span class="titulo-controles"><strong>Wario</strong></span><br />
+					<p>
+						<strong>A/D: </strong>Moverse a la derecha o izquierda.<br />
+						<strong>W: </strong>Saltar.<br />
+						<strong>S: </strong>Aplastar.<br />
+					</p>
+					<hr />
+					<span class="titulo-controles"><strong>Megaman</strong></span><br />
+					<p>
+						<strong>Flechas izquierda/derecha: </strong>Moverse a la derecha o izquierda.<br />
+						<strong>Flecha arriba: </strong>Saltar.<br />
+						<strong>Z: </strong>Disparar.<br />
+					</p>
+				</article>
+			</div>
+			<!-- Fin articulos -->
+		</div>
+	</div>
+	<!-- Fin contenedor contenido -->
+	<footer class="container-fluid text-center bg-dark pt-4 pb-4 mt-4">
+		<p class="mb-0">
+			2017 - 2019 Stardust Team
+		</p>
+	</footer>
+
+	<script type="text/javascript">
+		lime.embed ("MarioAlpha15", "openfl-content", 960, 416, { parameters: {} });
+	</script>
+	<script src="../../js/jquery-3.2.1.slim.min.js"></script>
+  <script src="../../js/popper.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+</body>
+</html>

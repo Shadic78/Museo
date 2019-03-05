@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../iconos/style.css"/>
+  <link rel="stylesheet" href="../css/style1.css"/>
+  <title>Stardust Team</title>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="../index.html"><span style="color:white;">Stardust</span><span style="color:red;">Team</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html"><span class="nav-opcion"><span class="icon-home"></span>Inicio</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../articulos/info.html"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid" style="background:black;">
+    <img src="../img/stardustLogo.png" class="img-fluid"/>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3 pb-3 mt-4 mb-4 text-center tituloArticulos"><h2>Mario Bros</h2></div>
+    </div>
+
+    <div class="row justify-content-center articulo border">
+      <!-- Articulos -->
+      <div class="col-lg-9 no-padding">
+        <article>
+          <img src="../img/mario3.png"/>
+          <h2>Un poco de historia</h2>
+          <p>
+            Este fue el primer videojuego desarrollado por Stardust Team, el videojuego
+            consiste en un intento de replicar al clasico Mario Bros.
+          </p>
+          <p>
+            El juego esta hecho en un motor grafico llamado Stencyl, el cual
+            en su version gratuita permite crear videojuegos para flash y html/js,
+            la peculiaridad de Stencyl es que permite hacer videojuegos mediante
+            una interfaz de arrastrar y soltar bloques, lo cual facilita bastante las cosas y por
+            ese motivo decidimos experimentar un poco con Stencyl.
+          </p>
+          <img src="../img/stencyllogo.png" alt="stencyl">
+          <h2>Características</h2>
+          <p>
+            - Modo de un solo jugador y modo multijugador<br />
+            - 4 Niveles en el modo de 1 jugador.<br />
+            - 1 Boss battle en el modo de 1 jugador.<br />
+            - 1 Nivel en el modo de 2 jugadores.<br />
+            - Mario, Wario y Megaman como personajes jugables.
+          </p>
+          <h2>Información extra</h2>
+          <p>
+            El juego cuenta con una buena cantidad de bugs y mal rendimiento debido
+            a la nula optimización que tiene, ademas de que esta inconcluso, solo el
+            "mundo 1" esta terminado.
+          </p>
+          <h2>Imagenes</h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/mario1.png" alt="Nivel 1">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mario7.png" alt="Multiplayer">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mario5.png" alt="Boss battle">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mario6.png" alt="Mundo 2">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mario4.png" alt="Nivel 2">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/mario2.png" alt="Menu">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+          <a class="btn btn-lg btn-primary mt-2 px-5 boton" href="../games/mario/mario.html" role="button">Jugar</a>
+        </article>
+      </div>
+      <!-- Fin articulos -->
+    </div>
+
+  </div>
+  <!-- Fin contenedor contenido -->
+  <footer class="container-fluid text-center bg-dark pt-4 pb-4 mt-4">
+    <p class="mb-0">
+      2017 - 2019 Stardust Team
+    </p>
+  </footer>
+
+  <script src="../js/jquery-3.2.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

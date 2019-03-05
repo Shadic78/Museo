@@ -30,13 +30,25 @@ body{
   font-size: 18px;
   text-align: justify;
 }
-.articulo a{
+.boton{
   background: rgb(203, 42, 71);
   border: none;
 }
-.articulo a:hover{
+.boton:hover{
   border: none;
   background: rgb(167, 34, 58);
+}
+.botonCompleto{
+  background: rgb(203, 42, 71);
+  border: none;
+  width: 100%;
+}
+.botonCompleto:hover{
+  border: none;
+  background: rgb(167, 34, 58);
+}
+.articulo img{
+  width:100%;
 }
 aside{
   padding: 0;
@@ -51,10 +63,29 @@ aside .cont-aside{
   overflow: hidden;
 }
 .borde-izq{
-  border-left: solid 10px rgb(217, 215, 208) !important;
+  border-left: solid 10px rgb(217, 215, 208);
 }
 footer{
   color: white;
   font-family: Roboto, Calibri, arial;
   font-size: 20px;
+}
+.contenedorJuego{
+  margin: 0 auto;
+  margin-top: 2em;
+}
+.titulo-controles{
+  font-size: 20px;
+}
+.tituloContenedor{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  background: rgb(203, 42, 71);
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+.filtros{
+  height: 380px;
 }

@@ -1,0 +1,12 @@
+struct_id=22
+struct_type=dialog.ds.ext.DialogOptions
+windowTemplate=9
+windowFont=0
+cursorType=Use Window
+cursorWindow=10
+choiceLayout=Vertical
+selectButton=enter
+scrollWait=350
+scrollDuration=90
+itemPadding=4
+inactiveTime=350

@@ -4,30 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../iconos/style.css"/>
-  <title>¿Quienes somos?</title>
+  <link rel="stylesheet" href="../css/style1.css"/>
+  <title>Stardust Team</title>
+
 </head>
 <body>
-  <div class="contenedorGeneral">
-    <div class="contenedorLogo">
-      <header>
-            <a href="index.html"><span style="color:white">Stardust</span><span style="color:rgb(203, 42, 71)"> Team</span></a>
-      </header>
-        <nav>
-          <ul>
-              <li><a href="../index.html"><span class="icon-home"></span>Inicio</a></li>
-              <li><a href="#"><span class="icon-help-with-circle"></span>¿Quienes somos?</a></li>
-            </ul>
-        </nav>
-      <img src="../images/stardustLogo.png" alt="LogoStardust"/>
-    </div>
-    <div class="contenedorContenido">
-      <div class="tituloContenido">
-        <span>¿Quienes somos?</span>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="../index.html"><span style="color:white;">Stardust</span><span style="color:red;">Team</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html"><span class="nav-opcion"><span class="icon-home"></span>Inicio</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="nav-opcion"><span class="icon-help-with-circle"></span>¿Quienes somos?</span></a>
+          </li>
+        </ul>
       </div>
-      <div class="columnaUnica">
-          <h2>Mejor dicho... ¿Quienes fuimos?</h2>
+    </nav>
+  </header>
+  <div class="container-fluid" style="background:black;">
+    <img src="../img/stardustLogo.png" class="img-fluid"/>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 pt-3 pb-3 mt-4 mb-4 text-center tituloArticulos"><h2>¿Quiénes somos?</h2></div>
+    </div>
+
+    <div class="row justify-content-center articulo border">
+      <!-- Articulos -->
+      <div class="col-lg-9 no-padding">
+        <article>
+          <h2>Mejor dicho... ¿Quiénes fuimos?</h2>
           <p>
             Stardust Team como tal, no tiene una fecha de "fundación" clara, sin embargo diria que
             comenzo de manera no oficial durante alrededor del cuarto semestre de preparatoria.<br />
@@ -46,14 +60,41 @@
             El desarrollo de dicho videojuego de mario bros duro aproximadamente 1 semestre, pero al decir "1 semestre"
             no significa que nos dedicabamos a trabajar en el a diario, a pesar de tener mucho tiempo libre
             estando dentro de la escuela, mayormente nos dedicabamos a jugar videojuegos, principalmente emuladores,
-            solo trabajabamos en nuestro videojuego casualmente cuando teniamos ganas, lo cual al finalizar el semestre
+            solo trabajabamos en nuestro videojuego casualmente, cuando teniamos ganas, lo cual al finalizar el semestre
             ocasiono que nos aburriera y quisieramos hacer otro videojuego, pero de otro genero, surgiendo asi Jonathan Quest.
           </p>
+          <p>
+            Jonathan Quest es el segundo videojuego que realizamos, en el cual nos inspiramos
+            en The Legend of Zelda. El juego inicio como un pasatiempo al igual que el Mario Bros, pero
+            en el sexto semestre de la preparatoria, en la materia de "programación de videojuegos",
+            el proyecto final era realizar un videojuego libre, con cualquier motor grafico o lenguaje de
+            programación, debido a lo cual terminamos entregando Jonathan Quest como nuestro proyecto.<br />
+            En el juego Jonathan Quest queriamos crear un tipo de Zelda, pero con caracteristicas de otro tipo de juegos
+            como por ejemplo un sistema de subida de nivel y mejora de estadisticas como fuerza, velocidad, etc.
+            cosa que en parte logramos hacer aunque no muy bien.<br />
+            El juego quedo inconcluso, pero se implementaron varias funcionalidades, como por ejemplo: atacar con una espada, tener
+            distintos tipos de espadas, rodar por el suelo, utilizar magias, una barra de vida, enemigos que patrullan
+            y te persiguen, una tienda de magias, etc. Sin embargo el querer realizar un videojuego tipo The Legend of Zelda
+            requiere una gran cantidad de trabajo y nosotros no continuamos con el desarrollo debido a ello.<br />
+            Considero que el principal fallo de Jonathan Quest es el rendimiento, debido a que el juego tiene muchas
+            funcionalidades pero ninguna esta optimizada, lo cual ocasiona que los FPS se reduzcan bastante la mayor parte
+            del tiempo.
+          </p>
+        </article>
       </div>
-    </div> <!-- Contenedor del contenido -->
-    <footer>
-      Footer
-    </footer>
-  </div> <!-- Contenedor general -->
+      <!-- Fin articulos -->
+    </div>
+
+  </div>
+  <!-- Fin contenedor contenido -->
+  <footer class="container-fluid text-center bg-dark pt-4 pb-4 mt-4">
+    <p class="mb-0">
+      2017 - 2019 Stardust Team
+    </p>
+  </footer>
+
+  <script src="../js/jquery-3.2.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

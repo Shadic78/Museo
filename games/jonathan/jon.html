@@ -46,10 +46,8 @@
 	</div>
 
 	<!--Juego-->
-  <div class="game">
-    <object type="application/x-shockwave-flash" data="JonathanQuest.swf" width="1024" height="576">
-        <param name="archivo" value="JonathanQuest.swf" />
-    </object>
+  <div class="game" id="game">
+
   </div>
 
 	<div class="container">
@@ -91,5 +89,24 @@
 	<script src="../../js/jquery-3.2.1.slim.min.js"></script>
   <script src="../../js/popper.min.js"></script>
   <script src="../../js/bootstrap.min.js"></script>
+	<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+				player.style.width = "1024px";
+				player.style.height = "576px";
+
+        const container = document.getElementById("game");
+        container.appendChild(player);
+        player.load({
+					url: "./JonathanQuest.swf",
+					maxExecutionDuration: 60,
+					splashScreen: false,
+					preloader: false,
+				});
+    });
+</script>
+	<script src="../../js/ruffle/ruffle.js"></script>
 </body>
 </html>
